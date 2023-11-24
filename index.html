@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgrey;
+        }
+        *{
+            box-sizing: border-box;
+        }
+.header{
+    height: 60px;
+    text-align: center;
+    padding: 40px;
+}
+.my-blog{
+    font-size: 35px;
+}
+.span-un{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+.flex-cont{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.left-cont{
+    margin: 1%;
+    width: 70%;
+ 
+}
+.right-cont{
+    margin: 1%;
+    width: 26%;
+   
+}
+@media screen and (max-width:980px)
+{
+    .left-cont{
+    margin: 1%;
+    width: 100%;
+ 
+}
+.right-cont{
+    margin: 1%;
+    width: 100%;
+   
+}
+    
+}
+.img-blog{
+    height: 50%;
+    width: 100%;
+}
+.left-cont-blog{
+    background-color: white;
+    box-shadow: 5px 5px 8px gray;
+    margin: 4% 0;
+}
+.left-cont-blog-text{
+    padding: 10px;
+}
+.img-avatar{
+    height: 60%;
+    width: 100%;
+}
+.right-cont-ava{
+    margin: 10% 0;
+    box-shadow: 5px 5px 8px gray;
+    background-color: white;
+}
+.right-cont-blog-text{
+    padding: 10px;
+}
+.Popular-Posts{
+    box-shadow: 5px 5px 8px gray;
+}
+.Popular-Posts-tit{
+    background-color:gray;
+    padding: 10px;
+}
+.pic-right{
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    background-color: white;
+    margin: 10px;
+}
+
+.border-right{
+    border: 1px solid lightgray;
+    height: 80px;
+    background-color:white;
+}
+.border-right:hover{
+background-color: gray;
+}
+.tag{
+    background-color: lightgray;
+    padding: 5px 10px;
+    
+}
+.right-tag{
+    box-shadow: 5px 5px 8px gray;
+    background-color: white;
+    margin-top: 30px;
+}
+.sub-tag{
+    min-height: 100px;
+}
+.sub-tag span{
+    font-size: 14px;
+    margin: 12px 3px;
+    background-color:lightgray;
+    padding: 3px;
+}
+.sub-tag span:focus{
+    background-color: black;
+    color: white;
+}
+button{
+    padding: 15px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin: 20px 2px;
+}
+button:hover{
+    background-color: lightgray;
+}
+.comment{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.footer{
+    background-color:#616161;
+    height: 150px;
+  display: block;
+  width: 100%;
+}
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <span class="my-blog">MY BLOG</span>
+        <p>Welcome to the blog of <span class="span-un">unknown</span></p>
+    </div>
+    
+<div class="flex-cont">
+
+
+        <div class="left-cont">
+
+            <div class="left-cont-blog">
+
+
+                <img src="pic/woods.jpg" alt="woods" class="img-blog">
+                <div class="left-cont-blog-text">
+                 <h3>
+                    <b>
+                        TITLE HEADING
+                    </b>
+                 </h3>
+                    <p>Title description, April 7, 2014</p>
+                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <button>
+                        READ MORE >>
+                    </button>
+                    <b style="margin-left:70%;">Comments <span class="comment">0</span></b>
+                </div>
+            </div>
+            
+            <div class="left-cont-blog">
+
+
+                <img src="pic/bridge.jpg" alt="bridge" class="img-blog">
+                <div class="left-cont-blog-text">
+                 <h3>
+                    <b>
+                        BLOG ENTRY
+                    </b>
+                 </h3>
+                    <p>Title description, April 2, 2014</p>
+                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <button>
+                        READ MORE >>
+                    </button>
+                    <b style="margin-left:70%;">Comments <span class="comment">2</span></b>
+                 </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="right-cont">
+
+          <div class="right-cont-ava">
+            <img src="pic/avatar_g.jpg" alt="avatar_g" class="img-avatar">
+            <div class="right-cont-blog-text">
+            <h4>
+                <b>
+                    My Name
+                </b>
+            </h4>
+            <p>
+                Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.
+            </p>
+          </div>
+          </div>
+
+        <div class="Popular-Posts">
+            <div class="Popular-Posts-tit"> 
+                <h4>Popular Posts</h4>
+            </div>
+             
+           
+             <div class="border-right">
+                <img src="pic/workshop.jpg" alt="workshop" class="pic-right"> 
+                
+                    <span>Lorem</span> 
+                    <br>
+                    <span>Sed mattis nunc</span>
+                
+             </div>
+
+             <div class="border-right">
+                <img src="pic/gondol.jpg" alt="gondol" class="pic-right"> 
+               
+                    <span>Lorem</span> 
+                    <br>
+                    <span>Sed mattis nunc</span>
+                
+             </div>
+
+             <div class="border-right">
+                <img src="pic/skies.jpg" alt="skies" class="pic-right"> 
+               
+                    <span>Lorem</span> 
+                    <br>
+                    <span>Sed mattis nunc</span>
+               
+             </div>
+
+             <div class="border-right">
+                <img src="pic/rock.jpg" alt="rock" class="pic-right"> 
+               
+                    <span>Lorem</span> 
+                    <br>
+                    <span>Sed mattis nunc</span>
+               
+             </div>
+
+  
+        </div>
+
+
+
+        <div class="right-tag">
+           <div class="tag">
+              <h4>Tags</h4>
+           </div>
+           <div class="sub-tag">
+              
+               <span>Travel</span>
+               <span>New York</span>
+               <span>London</span>
+               <span>IKEA</span>
+               <span>NORWAY</span>
+               <span>DIY</span>
+               <span>Ideas</span>
+               <span>Baby</span>
+               <span>Family</span>
+               <span>News</span>
+               <span>Clothing</span>
+               <span>Shopping</span>
+               <span>Sports</span>
+               <span>Games</span>
+               
+           </div>
+        </div>
+</div>
+
+<div class="footer">
+<button><span style="font-size:18px ;">&#171</span> previous</button>
+<button>Next <span style="font-size:18px ;">&#187</span></button>
+<p style="color:white; margin-left: 10px;">Powered by <a href="#" style="color:white;">w3.css</a></p>
+</div>
+</body>
+</html>
